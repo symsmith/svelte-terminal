@@ -3,8 +3,6 @@
 This is an experiment to render Svelte in the terminal. It's very primitive but at least it gets something printed!
 
 ```svelte
-<svelte:options customRenderer="./renderer.js" />
-
 <internal-box>
 	{#each new Array(10) as _, i}
 		<internal-text color="cyan">

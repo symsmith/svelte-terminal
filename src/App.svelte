@@ -1,5 +1,3 @@
-<svelte:options customRenderer="./renderer.js" />
-
 <internal-box>
 	{#each new Array(10) as _, i}
 		<internal-text color="cyan">
